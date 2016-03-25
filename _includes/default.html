@@ -48,9 +48,9 @@
 				<i class="fa fa-github"></i>
 			</a>
 			{% endif %}
-			{% if site.author.twitter %}
-			<a type="button" class="navbar-toggle nav-link" href="http://twitter.com/{{ site.author.twitter }}">
-				<i class="fa fa-twitter"></i>
+			{% if site.author.weibo %}
+			<a type="button" class="navbar-toggle nav-link" href="http://weibo.com/{{ site.author.weibo }}">
+				<i class="fa fa-weibo"></i>
 			</a>
 			{% endif %}
 			{% if site.author.email %}
@@ -59,7 +59,7 @@
 			</a>
 			{% endif %}
 			<a class="navbar-brand" href="{{ site.BASE_PATH }}/">
-				<img src="http://www.gravatar.com/avatar/{{site.author.email_md5}}?s=35" class="img-circle" />
+				<img src="{{ site.BASE_PATH }}/assets/img/48px.jpg" class="img-circle" />
 				{{ site.title }}
 			</a>
 		</div>
@@ -98,7 +98,7 @@
 		<footer>
 			<hr/>
 			<p>
-				&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} with Jekyll. Theme: <a href="https://github.com/EdgeBoy">Edge</a> by EdgeBoy.
+				&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} with Jekyll. Theme: <a href="https://github.com/EdgeBoy">Github</a> by EdgeBoy.
 			</p>
 		</footer>
 	</div>
