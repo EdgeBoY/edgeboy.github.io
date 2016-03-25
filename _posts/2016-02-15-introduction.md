@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Configuration
+title: Introduction
 categories: [Info, Field, Others]
 tags: [PHP, Linux, MySQL, HTML ,CSS]
 fullview: true
@@ -13,6 +13,6 @@ Title: E_B
   Name: Edge_Boy  
   Bir_:1993-11
   Email: [yl005512@163.com](mailto:yl005512@163.com)  
-  College:[UPC](www.upc.edu.cn)  
+  College:<a href="www.upc.edu.cn">UPC</a>  
   Github: [https://github.com/EdgeBoy](https://github.com/EdgeBoy)    
 {% endhighlight %}
