@@ -16,7 +16,7 @@ defaults:
       path: "" # empty string for all files
     values:
       title: www.edgeboy.net
-
+summary: Programming is an Art.
 description: Stylish Jekyll Theme
 author:
   name: EdgeBoy
