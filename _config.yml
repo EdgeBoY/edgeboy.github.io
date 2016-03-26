@@ -8,13 +8,14 @@ markdown: kramdown
 disqus: EdgeBoy
 google_analytics: EdgeBoy
 title: www.edgeboy.net
+summary: Programming is an Art.
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: EdgeBoy
+      title: www.edgeboy.net
 
 description: Stylish Jekyll Theme
 author:
@@ -24,8 +25,7 @@ author:
   QQ: 949068284
   weibo: furinkazan00
   OSC: edgeboy
-  bio: Programming is an Art !
-          生活是一场修行！！
+  bio: 生活是一场修行！
 
 rss_path: feed.xml
 categories_path: categories.html
