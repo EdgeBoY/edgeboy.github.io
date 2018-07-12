@@ -42,10 +42,16 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
 			</button>
 			{% if site.author.github %}
 			<a type="button" class="navbar-toggle nav-link" href="http://github.com/{{ site.author.github }}"target="_blank">
 				<i class="fa fa-github"></i>
+			</a>
+			{% endif %}
+			{% if site.author.QQ %}
+			<a type="button" class="navbar-toggle nav-link" href="http://weibo.com/{{ site.author.weibo }}"target="_blank">
+				<i class="fa fa-qq"></i>
 			</a>
 			{% endif %}
 			{% if site.author.weibo %}
