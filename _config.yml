@@ -7,7 +7,11 @@ highlighter: pygments
 markdown: kramdown
 disqus: EdgeBoy
 google_analytics: EdgeBoy
+<<<<<<< HEAD
 title: www.edgeboy.cn
+=======
+title: 欢迎光临访问本小站^_^ ！
+>>>>>>> 4edf39ce374d0d85da4af9031d0b5279be198670
 summary: Programming is an Art.
 
 defaults:
@@ -15,7 +19,11 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
+<<<<<<< HEAD
       title: www.edgeboy.cn
+=======
+      title: 欢迎光临访问本小站^_^ ！
+>>>>>>> 4edf39ce374d0d85da4af9031d0b5279be198670
 summary: Programming is an Art.
 description: Stylish Jekyll Theme
 author:
